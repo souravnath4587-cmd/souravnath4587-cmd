@@ -1,11 +1,10 @@
 <div>
   <!-- 🎨 ANIMATED HEADER BANNER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1f1f,30:1A3636,60:40534C,100:677D6A&height=200&section=header&text=Sourav%20Kumar%20Nath&fontSize=46&fontColor=D6BD98&fontAlignY=38&desc=MERN%20Stack%20%26%20Next.js%20Developer&descSize=18&descAlignY=58&descAlign=50&animation=fadeIn" alt="Sourav Kumar Nath Banner" width="100%" />
+  <img src="./assets/banner.svg" alt="Sourav Kumar Nath: MERN Stack &amp; Next.js Developer" width="100%" />
 </p>
 
 <!-- ✍️ TYPING ANIMATION -->
-<h1 align="center">Hi, I'm Sourav Kumar Nath! 👋</h1>
 
 <div align="center">
   <a href="https://git.io/typing-svg">
@@ -232,6 +231,6 @@
 
 <br /><br />
 
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:677D6A,40:40534C,70:1A3636,100:0d1f1f&height=160&section=footer&text=Keep+Building.+Keep+Growing.&fontSize=18&fontColor=D6BD98&fontAlignY=62&animation=fadeIn" />
+  <img width="100%" src="./assets/footer.svg" alt="Keep Building. Keep Growing." />
 </div>
 </div>

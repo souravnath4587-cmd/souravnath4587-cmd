@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Sourav Kumar Nath: MERN Stack and Next.js Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07130f"/>
+      <stop offset="55%" stop-color="#0d1f1f"/>
+      <stop offset="100%" stop-color="#1A3636"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F5E0C3"/>
+      <stop offset="100%" stop-color="#D6BD98"/>
+    </linearGradient>
+    <radialGradient id="glowGreen" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3CD070" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3CD070" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D6BD98" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#D6BD98" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#3CD070" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1200" height="320" rx="20"/>
+    </clipPath>
+    <style>
+      .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      .mono { font-family: Consolas, 'SF Mono', Menlo, 'Courier New', monospace; }
+      .float1 { animation: float 7s ease-in-out infinite; }
+      .float2 { animation: float 9s ease-in-out infinite reverse; }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+      @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- Background -->
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <circle class="float1" cx="160" cy="40" r="220" fill="url(#glowGreen)"/>
+    <circle class="float2" cx="1080" cy="300" r="240" fill="url(#glowGold)"/>
+
+    <!-- Left: intro -->
+    <g class="sans">
+      <text x="70" y="88" font-size="20" fill="#8FA89B" letter-spacing="3">HI THERE, I'M</text>
+      <text x="68" y="150" font-size="56" font-weight="700" fill="url(#nameGrad)">Sourav Kumar Nath</text>
+      <text x="70" y="192" font-size="24" font-weight="600" fill="#3CD070">MERN Stack &amp; Next.js Developer</text>
+      <text x="70" y="222" font-size="16" fill="#8FA89B">Building full-stack, real-time web apps from Feni, Bangladesh</text>
+    </g>
+
+    <!-- Tech chips -->
+    <g class="sans" font-size="14" font-weight="600">
+      <rect x="70" y="244" width="66" height="30" rx="15" fill="#3CD070" fill-opacity="0.12" stroke="#3CD070" stroke-opacity="0.5"/>
+      <text x="103" y="264" text-anchor="middle" fill="#3CD070">React</text>
+      <rect x="146" y="244" width="80" height="30" rx="15" fill="#3CD070" fill-opacity="0.12" stroke="#3CD070" stroke-opacity="0.5"/>
+      <text x="186" y="264" text-anchor="middle" fill="#3CD070">Next.js</text>
+      <rect x="236" y="244" width="80" height="30" rx="15" fill="#3CD070" fill-opacity="0.12" stroke="#3CD070" stroke-opacity="0.5"/>
+      <text x="276" y="264" text-anchor="middle" fill="#3CD070">Node.js</text>
+      <rect x="326" y="244" width="80" height="30" rx="15" fill="#D6BD98" fill-opacity="0.12" stroke="#D6BD98" stroke-opacity="0.5"/>
+      <text x="366" y="264" text-anchor="middle" fill="#D6BD98">Express</text>
+      <rect x="416" y="244" width="88" height="30" rx="15" fill="#D6BD98" fill-opacity="0.12" stroke="#D6BD98" stroke-opacity="0.5"/>
+      <text x="460" y="264" text-anchor="middle" fill="#D6BD98">MongoDB</text>
+      <rect x="514" y="244" width="92" height="30" rx="15" fill="#D6BD98" fill-opacity="0.12" stroke="#D6BD98" stroke-opacity="0.5"/>
+      <text x="560" y="264" text-anchor="middle" fill="#D6BD98">Socket.io</text>
+    </g>
+
+    <!-- Right: code window -->
+    <g>
+      <rect x="690" y="44" width="450" height="232" rx="14" fill="#050d0a" fill-opacity="0.75" stroke="#40534C"/>
+      <rect x="690" y="44" width="450" height="36" rx="14" fill="#112420"/>
+      <rect x="690" y="66" width="450" height="14" fill="#112420"/>
+      <circle cx="712" cy="62" r="6" fill="#ff5f57"/>
+      <circle cx="732" cy="62" r="6" fill="#febc2e"/>
+      <circle cx="752" cy="62" r="6" fill="#28c840"/>
+      <text x="915" y="67" text-anchor="middle" class="sans" font-size="13" fill="#8FA89B">sourav.js</text>
+
+      <g class="mono" font-size="16">
+        <text x="712" y="110"><tspan fill="#c792ea">const</tspan><tspan fill="#E6EDF3"> sourav = {</tspan></text>
+        <text x="744" y="136"><tspan fill="#7dd3fc">role</tspan><tspan fill="#E6EDF3">: </tspan><tspan fill="#3CD070">"MERN Stack Developer"</tspan><tspan fill="#E6EDF3">,</tspan></text>
+        <text x="744" y="162"><tspan fill="#7dd3fc">stack</tspan><tspan fill="#E6EDF3">: [</tspan><tspan fill="#3CD070">"React"</tspan><tspan fill="#E6EDF3">, </tspan><tspan fill="#3CD070">"Next"</tspan><tspan fill="#E6EDF3">, </tspan><tspan fill="#3CD070">"Node"</tspan><tspan fill="#E6EDF3">],</tspan></text>
+        <text x="744" y="188"><tspan fill="#7dd3fc">projects</tspan><tspan fill="#E6EDF3">: </tspan><tspan fill="#F78C6C">3</tspan><tspan fill="#E6EDF3">,</tspan><tspan fill="#5c7a6c"> // deployed</tspan></text>
+        <text x="744" y="214"><tspan fill="#7dd3fc">openTo</tspan><tspan fill="#E6EDF3">: </tspan><tspan fill="#3CD070">"Junior Dev Roles"</tspan><tspan fill="#E6EDF3">,</tspan></text>
+        <text x="712" y="240"><tspan fill="#E6EDF3">};</tspan></text>
+        <rect class="cursor" x="736" y="226" width="10" height="18" fill="#3CD070"/>
+      </g>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="20" fill="none" stroke="#40534C" stroke-opacity="0.8"/>
+</svg>

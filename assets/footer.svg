@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Keep Building. Keep Growing.">
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#677D6A"/>
+      <stop offset="40%" stop-color="#40534C"/>
+      <stop offset="70%" stop-color="#1A3636"/>
+      <stop offset="100%" stop-color="#0d1f1f"/>
+    </linearGradient>
+    <style>
+      .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      .w1 { animation: drift 10s ease-in-out infinite; }
+      .w2 { animation: drift 14s ease-in-out infinite reverse; }
+      @keyframes drift { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(-40px); } }
+    </style>
+  </defs>
+  <path class="w2" d="M-60 70 C 140 30, 340 110, 540 70 S 940 30, 1260 70 V170 H-60 Z" fill="url(#wave)" opacity="0.45"/>
+  <path class="w1" d="M-60 90 C 160 130, 360 50, 600 90 S 1000 130, 1260 85 V170 H-60 Z" fill="url(#wave)"/>
+  <text x="600" y="136" text-anchor="middle" class="sans" font-size="22" font-weight="600" fill="#D6BD98" letter-spacing="1">Keep Building. Keep Growing.</text>
+</svg>
