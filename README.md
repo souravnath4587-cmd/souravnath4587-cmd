@@ -1,16 +1,22 @@
-## Hi there 👋
+# Hi, I'm Sourav Kumar Nath 👋
 
-<!--
-**souravnath4587-cmd/souravnath4587-cmd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Frontend-Focused MERN Stack Developer
 
-Here are some ideas to get you started:
+I’m a passionate web developer focused on building responsive,
+user-friendly and scalable web applications.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠️ Tech Stack
+
+- JavaScript | TypeScript
+- React | Next.js
+- Node.js | Express.js
+- MongoDB
+- Tailwind CSS
+- Git & GitHub
+
+### 🚀 Featured Projects
+
+- 🍽️ FoodFlow — Food Delivery Platform
+- 🐾 Pet-Nest — Pet Adoption Platform
+- 🥘 Recipe Hub — Recipe & Food Platform
+- 🌐 Personal Portfolio
